@@ -1,5 +1,27 @@
+/* background
+Botoes
+Cores de texto */
+/*Variáveis de cores*/
+:root{
+  --background-primary-color:#ffffff;
+  --background-secondary-color:#f5f5f5;
+  --backgroun-tertiaty-color:#000000;
+
+  --button-primary-color:#8F0101;
+  --button-secondary-color:#B81515;
+
+  --text-primary-color:#222222;
+  --text-secondary-color:#ffffff;
+  
+
+}
+
+/* CSS RESET */
 body, img, h1, p, fieldset, legend, label, input, textarea, select, button {
     margin: 0;
     padding: 0;
   box-sizing: border-box;
+}
+h1{
+  color: var(--button-primary-color);
 }

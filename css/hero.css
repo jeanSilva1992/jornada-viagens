@@ -1,8 +1,29 @@
 .hero-img{
     height:400px;
     width:100%;
+    background-image: url(../img/hero-cel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px){
+  .hero-img{
+    height:620px;
+    
+    background-image: url(../img/hero-tablet.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+}
+@media screen and (max-width: 1024px){
+  .hero-img{
+    height:620px;
+    
     background-image: url(../img/hero.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
 }

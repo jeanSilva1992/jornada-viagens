@@ -6,6 +6,14 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.hero h2{
+  padding: 88px 24px;
+  margin:0;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
 
 @media screen and (max-width: 768px){
   .hero-img{
@@ -16,6 +24,12 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.hero h2{
+  padding: 0px 60px;
+  margin:0;
+  font-weight: var(--text-weight);
+  font-size: 32px;
+}
 }
 @media screen and (max-width: 1024px){
   .hero-img{
@@ -25,5 +39,11 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+.hero h2{
+  padding: 88px 120px;
+  margin:0;
+  font-weight: var(--text-weight);
+  font-size: 32px;
 }
 }
